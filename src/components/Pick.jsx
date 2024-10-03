@@ -24,7 +24,7 @@ function Pick() {
 
           <div className="mt-5 plan">
             <label htmlFor="default-checkbox" className="">
-              <div className="flex items-center justify-between font-medium border-blue-800 border-2 rounded-md p-4 focus:outline-none focus:ring bg-violet-50 ">
+              <div className="flex items-center justify-between font-medium border-blue-800 border-2 rounded-md p-4 focus:outline-none focus:ring bg-violet-50">
                 <div className="flex gap-3 items-center text-left ">
                   <div className="">
                     <input
@@ -46,7 +46,7 @@ function Pick() {
               </div>
             </label>
             <label htmlFor="default-checkbox1" className="">
-              <div className="flex items-center justify-between font-medium border-blue-800 border-2 rounded-md p-4 focus:outline-none focus:ring bg-violet-50 mt-3 w-inherit">
+              <div className="flex items-center justify-between font-medium border-blue-800 border-2 rounded-md p-4 focus:outline-none focus:ring bg-violet-50 mt-3 ">
                 <div className="flex gap-3 items-center text-left ">
                   <div className="">
                     <input
@@ -68,7 +68,7 @@ function Pick() {
               </div>
             </label>
             <label htmlFor="default-checkbox2" className="">
-              <div className="flex items-center justify-between font-medium border-blue-800 border-2 rounded-md p-4 focus:outline-none focus:ring active:bg-violet-50 mt-3 w-inherit">
+              <div className="flex items-center justify-between font-medium border-blue-800 border-2 rounded-md p-4 focus:outline-none focus:ring active:bg-violet-50 mt-3">
                 <div className="flex gap-3 items-center text-left ">
                   <div className="">
                     <input
