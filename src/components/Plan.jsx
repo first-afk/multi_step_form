@@ -28,7 +28,7 @@ function Plan() {
     <div>
     <div className="card ">
       {Card()}
-      <div className="mx-14 mt-10 flex flex-col">
+      <div className="mx-10 lg:mx-14 mt-10 flex flex-col">
         <h3 className="text-left">Select your plan</h3>
         <p class="mt-1 text-left text-gray-400">
           You have the option of monthly or yearly billing.

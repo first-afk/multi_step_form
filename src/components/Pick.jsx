@@ -16,7 +16,7 @@ function Pick() {
     <div>
       <div className="card ">
         {Card()}
-        <div className="mx-14 mt-10 flex flex-col">
+        <div className="mx-10 lg:mx-14 mt-10 flex flex-col">
           <h3 className="text-left">Pick add-ons</h3>
           <p class="mt-1 leading-none text-left text-gray-400">
             Add-ons help enhance your gaming experience.

@@ -9,7 +9,7 @@ function Summary() {
     <div>
     <div className="card">
       {Card()}
-      <div className="mx-14 mt-10 flex flex-col">
+      <div className="mx-10 lg:mx-14 mt-10 flex flex-col">
         <h3 className="text-left">Finishing up</h3>
         <p class="mt-1 leading-9 text-left text-gray-400">
           Double-check everything looks OK before confirming.

@@ -10,7 +10,7 @@ function Info() {
     <div>
       <div className="card">
         {Card()}
-        <div className="mx-14 mt-10 flex flex-col">
+        <div className="mx-10 lg:mx-14 mt-10 flex flex-col">
           <h3 className="text-left text-pretty">Personal Info</h3>
           <p className="mt-1 text-left text-gray-400 text-pretty">
             Please provide your name, email address and phone number.
