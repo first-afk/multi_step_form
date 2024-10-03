@@ -45,7 +45,7 @@
   .plan {
     width: 100%;
     flex-direction: column;
-    /* height: 330px; */
+    height: auto;
   }
   .arcade {
     margin: 6px;
@@ -61,6 +61,7 @@
     width: 100vw;
     height: 55px;
     padding: 15px;
+    margin: 1rem;
     background-color: #fff;
     position: fixed;
     right: 0;
