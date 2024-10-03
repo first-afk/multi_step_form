@@ -18,11 +18,12 @@
 
 @media only screen and (max-width: 850px) {
   .card {
-    position: static;
+    /* position: static; */
     margin: 1.5rem;
+    padding-bottom: 1.5rem;
     flex-direction: column;
     margin-top: 50%;
-    height: 34em ;
+    height: auto ;
   }
   .mobile {
     position: absolute;
@@ -45,13 +46,14 @@
   .plan {
     width: 100%;
     flex-direction: column;
-    height: auto;
+    /* height: auto; */
   }
   .arcade {
     margin: 6px;
     align-items: center;
     width: auto;
     padding: 8px;
+    /* height: 90px; */
     gap: 8px;
   }
 
