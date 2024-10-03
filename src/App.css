@@ -19,6 +19,7 @@
 @media only screen and (max-width: 850px) {
   .card {
     position: static;
+    margin: 2rem;
     flex-direction: column;
     margin-top: 50%;
     height: 34em ;
