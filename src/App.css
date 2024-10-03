@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.card {
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+}
+
+/* add media queries */
+
+/* i finally understood the mystery to media query min-width & max-width. apparently this current max-width means these queries should only occur if the screen is as wide as 600px. min-width means your basically styling your big size screen inside the media query and whatever is outside the media query is your sizing for small screens  */
+
+@media only screen and (max-width: 850px) {
+  .card {
+    position: static;
+    flex-direction: column;
+    margin-top: 50%;
+    height: 34em ;
+  }
+  .mobile {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .query {
+    width: 100%;
+    top: 10%;
+    left: 0;
+  }
+  .unordered {
+    place-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+  .plan {
+    width: 100%;
+    flex-direction: column;
+    /* height: 330px; */
+  }
+  .arcade {
+    margin: 6px;
+    align-items: center;
+    width: auto;
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 55px;
+    padding: 15px;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.img {
+  height: 29.5em;
+  margin: 1rem;
+}
+
+.bg {
+  display: flex;
+  margin-top: 12px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fff 1px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.toggle {
+  background-color: hsl(235, 85%, 97%);
+}
